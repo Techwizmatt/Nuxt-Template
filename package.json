@@ -1,0 +1,35 @@
+{
+  "name": "nuxt-application-vuetify-template",
+  "version": "0.0.1",
+  "author": {
+    "name": "Unixity LLC",
+    "email": "matthew@unixity.co",
+    "url": "https://unixity.co"
+  },
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.21.3",
+    "@nuxt/eslint-config": "^0.1.1",
+    "eslint": "^8.37.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "eslint-plugin-vue": "^9.10.0",
+    "nuxt": "^3.3.2"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/vue-fontawesome": "^3.0.3",
+    "axios": "^1.3.4",
+    "sass": "^1.60.0",
+    "vite-plugin-vuetify": "^1.0.2",
+    "vue-responsive-video-background-player": "^2.3.1",
+    "vuetify": "^3.1.4"
+  }
+}
