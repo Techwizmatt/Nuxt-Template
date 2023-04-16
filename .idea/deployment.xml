@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="PROD - Unixity" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="PROD - Unixity">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/unixity.co" local="$PROJECT_DIR$/.output" web="unixity.co" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

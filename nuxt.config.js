@@ -9,13 +9,6 @@ export default defineNuxtConfig({
         author: pack.author
     },
     components: true,
-    modules: [
-        async (options, nuxt) => {
-            nuxt.hooks.hook('vite:extendConfig', config => config.plugins.push(
-                vuetify()
-            ))
-        }
-    ],
     css: [
         'vuetify/lib/styles/main.sass',
         '@fortawesome/fontawesome-svg-core/styles.css',
@@ -24,9 +17,25 @@ export default defineNuxtConfig({
     build: {
         transpile: ['vuetify']
     },
+    hooks: {
+        'vite:extendConfig': config => {
+            config.plugins.push(vuetify())
+        }
+    },
+    modules: [
+        // '@nuxtjs/axios'
+    ],
+    plugins: [
+    ],
     vite: {
         define: {
             'process.env.DEBUG': false
         }
+    },
+    devServer: {
+      port: 8000
+    },
+    server: {
+        port: 8000
     }
 })

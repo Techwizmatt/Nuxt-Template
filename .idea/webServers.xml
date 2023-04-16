@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ef938649-acf4-4373-b182-968367e05a9f" name="PROD - Unixity" url="https://">
+        <fileTransfer rootFolder="/data" accessType="SFTP" host="prod.unixity.co" port="22" sshConfigId="741c7518-17d1-4d02-b32d-2faff82243f3" sshConfig="Prod.unixity.co" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

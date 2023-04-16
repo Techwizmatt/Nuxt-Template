@@ -8,6 +8,10 @@
   </v-app>
 </template>
 
+<script setup>
+
+</script>
+
 <script>
 import ApplicationFooter from '~/components/applicationFooter.vue';
 
